@@ -69,6 +69,73 @@ Two ways we can convert any number with any other number.
    (10)10 = (A)16
    (12)10 = (C)16
    ```
-**How do you convert one number system to another number system?**
+## How do you convert one number system to another number system?
 
-Conversion:
+Conversions: There are two thing we have to remember. Using this two points you will be able to convert any number system to any number system.
+1. **Conversion from** `Decimal to baser b`.
+
+   Q: Covert (17)10 to base 2.
+   ```commandline
+      2 |17
+        -----
+       2 | 8 -> 1
+         -----
+        2 | 4 -> 0
+          -----
+         2 | 2 -> 0
+           -----
+             1 -> 0
+   
+   (17)10 = (10001)2
+   ```
+   ```commandline
+      (17)10 = (?)8
+      
+      8 | 17
+        -----
+         2  ->  1
+   
+      (17)10 = (21)8
+   ```
+
+   Keep dividing by base, take remainder, and write its opposite.
+2. **Conversion from** `Base b to Decimal`.
+    ```
+     Convert any base 'b' to 'Decimal'.
+   
+      4 3 2 1 0
+     (1 0 0 0 1)2 = (?)10
+     Steps:
+         1*2^4 + 0*2^3 + 0*2^2 + 0*2^1 + 1*2^0 = 17
+     
+   (10001)2 = (17)10         
+    ```
+   ```commandline
+       (21)8 = (?)10
+       = 2*8^1 + 1*8^0
+       = 17
+      (21)8 = (17)10
+   ```
+   **Example**:
+
+   Q: How do you convert base 2 into base 8?
+
+   A: First to convert base 2 into Decimal(10), then convert Decimal to base 8
+## Continuing with operator
+5. **Left shift (<<)**:
+
+   For example:
+
+   (10)10 = (1010)2 so what is `10 << 1`
+   ```commandline
+      10 << 1 = ?
+      (10)10 = (1010)2
+     So,
+      1010 << 1 = 10100
+      (10100)2 = (20)10
+   ```
+   So, <u>**a << 1 = 2a**</u> `(any number left shift is double the number)`
+ 
+   <font color="red">**General Point**:</font> a << b = a*2^b
+
+    That's means 2 << 4 is 2 << 2^4
