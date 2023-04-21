@@ -139,3 +139,12 @@ Conversions: There are two thing we have to remember. Using this two points you 
    <font color="red">**General Point**:</font> a << b = a*2^b
 
     That's means 2 << 4 is 2 << 2^4
+6. **Right Shift (>>)**:
+   ```commandline
+        ignor first value
+         0 0 1 1 0 0 1 >> 1  =  0 0 1 1 0 0
+   ```
+ 
+   <font color="red">**General Point**:</font> a >> b = a/2^b
+
+    
