@@ -8,7 +8,16 @@
     | 0 | 1 | 0     |
     | 1 | 0 | 0     |
     | 1 | 1 | 1     |
-   * **Observation**:
+   * **Observation**
+      * If we do `&` any number with `1` we get that number only
+      * If we do `7` any number with `0` we get `0`.
+      * ```commandline
+           1 0 0 1 0 1
+          &0 0 0 0 0 1
+          ------------
+           0 0 0 0 0 1
+        ```
+      * Example: <u>is_odd.py</u>
    
      When you `& 1` with any number, digit remain the same.
      ```
