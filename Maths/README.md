@@ -1,5 +1,5 @@
 # Math for DSA
-## Bitwise Operators:
+## <u>Bitwise Operators</u>:
 1. **AND**: 
 
     | a | b | a & b |
@@ -57,7 +57,7 @@
 
    ~a = 0 1 0 0 1
    ```
-## Conversion of (Number Systems) or Conversion With Various Basics:
+## <u>Conversion of (Number Systems) or Conversion With Various Basics</u>:
 Two ways we can convert any number with any other number.
 1. **Decimal**: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 `(Base: 10) like (357)10, (10)10`
 2. **Binary**: 0 & 1 `(Base: 2) like (10)10 = (1010)2, (7)10 = (111)2`
@@ -78,12 +78,13 @@ Two ways we can convert any number with any other number.
    (10)10 = (A)16
    (12)10 = (C)16
    ```
-## How do you convert one number system to another number system?
+## <u>How do you convert one number system to another number system?</u>
 
 Conversions: There are two thing we have to remember. Using this two points you will be able to convert any number system to any number system.
 1. **Conversion from** `Decimal to baser b`.
 
    Q: Covert (17)10 to base 2.
+
    ```commandline
       2 |17
         -----
@@ -97,6 +98,7 @@ Conversions: There are two thing we have to remember. Using this two points you 
    
    (17)10 = (10001)2
    ```
+  
    ```commandline
       (17)10 = (?)8
       
@@ -145,7 +147,7 @@ Conversions: There are two thing we have to remember. Using this two points you 
    ```
    So, <u>**a << 1 = 2a**</u> `(any number left shift is double the number)`
  
-   <font color="red">**General Point**:</font> a << b = a*2^b
+   <u>**General Point**</u>:a << b = a*2^b
 
     That's means 2 << 4 is 2 << 2^4
 6. **Right Shift (>>)**:
@@ -154,6 +156,8 @@ Conversions: There are two thing we have to remember. Using this two points you 
          0 0 1 1 0 0 1 >> 1  =  0 0 1 1 0 0
    ```
  
-   <font color="red">**General Point**:</font> a >> b = a/2^b
+   <u>**General Point**</u>: a >> b = a/2^b
+
+## <u>Negative of a Number in Binary Form</u>:
 
     
